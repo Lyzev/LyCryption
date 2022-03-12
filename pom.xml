@@ -20,11 +20,11 @@
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <configuration>
-<!--                    <archive>-->
-<!--                        <manifest>-->
-<!--                            <mainClass>me.lyzev.dclogger.DcLogger</mainClass>-->
-<!--                        </manifest>-->
-<!--                    </archive>-->
+                    <archive>
+                        <manifest>
+                            <mainClass>me.lyzev.cryption.LyCryption</mainClass>
+                        </manifest>
+                    </archive>
                     <descriptorRefs>
                         <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>

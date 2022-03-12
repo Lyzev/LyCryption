@@ -19,24 +19,31 @@ Build project:
 ```bash
 mvn package
 ```
-Run ./target/LyCryption-jar-with-dependencies.jar file using command:
-```bash
-java -jar ./target/LyCryption-jar-with-dependencies.jar
-```
+Import ./target/LyCryption.jar file.
 
 ### Import Library
 Download the newest version of the cipher on [Releases](https://github.com/Lyzev/LyCryption/realeases) and import into your project.
 
 ### Example
+#### Code:
 ```java
 /**
  * This is an example on how to use LyCryption.
  */
 public static void main(String[] args) {
-  LyCryption cipher = new LyCryption("YOUR-KEY"); // Create an instance of LyCryption with your own key
-  String encrypted = cipher.encrypt("YOUR-TEXT"); // Encrypt your text with the method encrypt of the instance
-  String decrypted = cipher.decrypt(encrypted); // Decrypt your text with the method decrypt of the instance
+    LyCryption cipher = new LyCryption("YOUR-KEY"); // Create an instance of LyCryption with your own key
+    System.out.println("Input: YOUR-TEXT");
+    String encrypted = cipher.encrypt("YOUR-TEXT"); // Encrypt your text with the method encrypt of the instance
+    System.out.println("Encrypt: " + encrypted);
+    String decrypted = cipher.decrypt(encrypted); // Decrypt your text with the method decrypt of the instance
+    System.out.println("Decrypt: " + decrypted);
 }
+```
+#### Output:
+```
+Input: YOUR-TEXT
+Encrypt: 4Kyg4KegyqjKkMK0yqDgoqDgrIDgqoA=
+Decrypt: YOUR-TEXT
 ```
 
 ## Bugs and Suggestions
