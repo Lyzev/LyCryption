@@ -1,0 +1,10 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:me.lyzev.cryption////PointingToDeclaration/-ly-cryption/me.lyzev.cryption/index.html
+$dokka.location:me.lyzev.cryption/LyCryption///PointingToDeclaration/-ly-cryption/me.lyzev.cryption/-ly-cryption/index.html
+$dokka.location:me.lyzev.cryption/LyCryption/LyCryption/#java.lang.String/PointingToDeclaration/-ly-cryption/me.lyzev.cryption/-ly-cryption/-ly-cryption.html
+$dokka.location:me.lyzev.cryption/LyCryption/decrypt/#java.lang.String/PointingToDeclaration/-ly-cryption/me.lyzev.cryption/-ly-cryption/decrypt.html
+$dokka.location:me.lyzev.cryption/LyCryption/encrypt/#java.lang.String/PointingToDeclaration/-ly-cryption/me.lyzev.cryption/-ly-cryption/encrypt.html
+$dokka.location:me.lyzev.cryption/LyCryption/getKey/#/PointingToDeclaration/-ly-cryption/me.lyzev.cryption/-ly-cryption/get-key.html
+me.lyzev.cryption
+
