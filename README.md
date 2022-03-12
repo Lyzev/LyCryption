@@ -22,7 +22,7 @@ mvn package
 Import ./target/LyCryption.jar file.
 
 ### Import Library
-Download the newest version of the cipher on [Releases](https://github.com/Lyzev/LyCryption/realeases) and import into your project.
+Download the newest version of the cipher on [Releases](https://github.com/Lyzev/LyCryption/releases) and import into your project.
 
 ### Example
 #### Code:
