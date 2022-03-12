@@ -1,0 +1,16 @@
+{
+  "total": 0,
+  "tools inspection": {
+    "Code Inspection": 0
+  },
+  "attributes": {
+    "vcs": {
+      "sarifIdea": {
+        "repositoryUri": "https://github.com/Lyzev/LyCryption",
+        "revisionId": "d60e6fea05de60ed694b303d124181bf76a92019",
+        "branch": "master"
+      }
+    },
+    "deviceId": "200820300000000-30de-ec60-4155-e263605d91db"
+  }
+}

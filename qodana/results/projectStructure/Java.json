@@ -1,0 +1,8 @@
+{
+  "modules": [
+    {
+      "name": "LyCryption",
+      "languageLevel": 17
+    }
+  ]
+}
