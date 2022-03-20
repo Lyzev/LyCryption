@@ -40,9 +40,7 @@ public class LyCryption {
         char[] out = in.toCharArray(); // Input as char array
         Random random = new Random(key.toString().hashCode()); // Creates an instance of Random with the hashcode of the key as the seed
         for (int i = 0; i < out.length; i++) // Loops thorugh every char of the provided input
-            out[i] = (char) (out[i] << key.charAt(random.nextInt(key.reverse().length())) % 8); // Shifts the char value
-        if (out.length % 2 != 0) // Reverse the key, so it has its original direction
-            key.reverse();
+            out[i] = (char) (out[i] << key.charAt(random.nextInt(key.length())) % 8); // Shifts the char value
         return Base64.getEncoder().encodeToString(new String(out).getBytes(StandardCharsets.UTF_8)); // Creates a string with the char array and encodes it with Base64
     }
 
@@ -56,9 +54,7 @@ public class LyCryption {
         char[] out = new String(Base64.getDecoder().decode(in)).toCharArray(); // Decodes the input with Base64, creates a string with it and gets the chars in the string as an array
         Random random = new Random(key.toString().hashCode()); // Creates an instance of Random with the hashcode of the key as the seed
         for (int i = 0; i < out.length; i++) // Loops thorugh every char of the provided input
-            out[i] = (char) (out[i] >> key.charAt(random.nextInt(key.reverse().length())) % 8); // Shifts the char value
-        if (out.length % 2 != 0) // Reverse the key, so it has its original direction
-            key.reverse();
+            out[i] = (char) (out[i] >> key.charAt(random.nextInt(key.length())) % 8); // Shifts the char value
         return new String(out); // Creates a string with the char array
     }
 
